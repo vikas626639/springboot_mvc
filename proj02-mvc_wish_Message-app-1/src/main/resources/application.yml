@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+#configure the spring mvc properties
+spring:  mvc:    view:      prefix: /view/
+      suffix: .jsp
