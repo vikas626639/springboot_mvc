@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    password: manager
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+  jpa:
+    hibernate:
+      ddl-auto: create-drop 
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+      mvc:    view:      prefix: /view/
+      suffix: .jsp
+
+server:  port: 8081
